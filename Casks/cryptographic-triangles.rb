@@ -8,8 +8,9 @@ cask "cryptographic-triangles" do
   desc "Cryptographic Triangles (TRI) wallet — tri7 Rust rewrite with PoS staking, Tor and I2P, encrypted messaging, built-in explorer"
   homepage "https://github.com/SamiAhmed7777/tri7"
 
-  # tri7 currently ships Windows installers only; this cask points at the
-  # official NSIS setup exe. The distribute workflow bumps version+sha256
-  # on every release. NOTE: requires the tri7 repo to be public for the
-  # asset URL to resolve.
+  # EXPLICIT MAINTAINER DIRECTIVE: tri7 currently ships Windows installers
+  # only (setup / gui-portable / tri7d exes); Sami directed this cask to
+  # point at the official NSIS setup exe until a macOS build exists.
+  # The distribute workflow bumps version+sha256 on every release.
+  # NOTE: requires the tri7 repo to be public for the asset URL to resolve.
 end
