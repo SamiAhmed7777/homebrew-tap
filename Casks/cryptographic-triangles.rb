@@ -1,6 +1,6 @@
 cask "cryptographic-triangles" do
-  version "7.0.0"
-  sha256 "3af168c0b2b99ef99996078ef08b48bc63d6e0a0cfb9adde93a9f90747b2f6ac"
+  version "7.0.1"
+  sha256 "1cfd15c9435b513df7cfbe2597cdcded62496e1711fd403d58be1d8cf25f578d"
 
   url "https://github.com/SamiAhmed7777/tri7/releases/download/v#{version}/CryptographicTriangles-#{version}-win64-setup.exe",
       verified: "github.com/SamiAhmed7777/tri7"
